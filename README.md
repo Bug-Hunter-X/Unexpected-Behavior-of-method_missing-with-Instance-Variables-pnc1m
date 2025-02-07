@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Ruby related to the `method_missing` method.  The example code shows that `method_missing` is only invoked for missing methods, not when accessing instance variables directly.  The solution shows how to correctly handle this scenario and properly intercept any attempts to access the instance variable.
